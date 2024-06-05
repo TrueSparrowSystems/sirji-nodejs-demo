@@ -43,22 +43,8 @@ The API documentation is available in the OpenAPI format. You can view the OpenA
 
 ## Mermaid Sequence Diagrams
 
-### Get All Todos
-
-![Get All Todos](docs/sequenceDiagrams/getAllTodos.mermaid)
-
-### Get Todo by ID
-
-![Get Todo by ID](docs/sequenceDiagrams/getTodoById.mermaid)
-
-### Create Todo
-
-![Create Todo](docs/sequenceDiagrams/createTodo.mermaid)
-
-### Update Todo
-
-![Update Todo](docs/sequenceDiagrams/updateTodo.mermaid)
-
-### Delete Todo
-
-![Delete Todo](docs/sequenceDiagrams/deleteTodo.mermaid)
+- [Get All Todos](docs/sequenceDiagrams/getAllTodos.mermaid)
+- [Get Todo by ID](docs/sequenceDiagrams/getTodoById.mermaid)
+- [Create Todo](docs/sequenceDiagrams/createTodo.mermaid)
+- [Update Todo](docs/sequenceDiagrams/updateTodo.mermaid)
+- [Delete Todo](docs/sequenceDiagrams/deleteTodo.mermaid)
