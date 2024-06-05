@@ -48,3 +48,7 @@ The API documentation is available in the OpenAPI format. You can view the OpenA
 - [Create Todo](docs/sequenceDiagrams/createTodo.mermaid)
 - [Update Todo](docs/sequenceDiagrams/updateTodo.mermaid)
 - [Delete Todo](docs/sequenceDiagrams/deleteTodo.mermaid)
+
+## Postman Collection
+
+The Postman Collection is available [here](./docs/postman_collection.json)
