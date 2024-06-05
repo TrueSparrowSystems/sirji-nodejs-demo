@@ -13,14 +13,6 @@ const addTodo = (data) => {
     return todo;
 };
 
-const updateTodo = (id, data) => {
-    const index = todos.findIndex(t => t.id === id);
-    if (index === -1) return null;
-
-    todos[index] = { ...todos[index], ...data };
-    return todos[index];
-};
-
 const deleteTodo = (id) => {
     const index = todos.findIndex(t => t.id === id);
     if (index === -1) return null;

@@ -25,13 +25,6 @@ router.post('/', (req, res) => {
     res.status(201).json(todo);
 });
 
-// Update a todo
-router.put('/:id', (req, res) => {
-    const updatedTodo = updateTodo(req.params.id, req.body);
-    if (!updatedTodo) return res.status(404).json({ message: 'Todo not found' });
-    res.json(updatedTodo);
-});
-
 // Delete a todo
 router.delete('/:id', (req, res) => {
     const deletedTodo = deleteTodo(req.params.id);
