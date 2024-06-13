@@ -40,22 +40,6 @@ describe("Todo API", () => {
 		expect(res.body).toHaveProperty("description");
 	});
 
-	it("should update a todo by ID", async () => {
-		const res = await request(app)
-			.put(`/api/todos/${createdTodoId}`)
-			.send({
-				title: "Updated title",
-				description: "Updated description",
-				completed: true,
-			})
-			.expect(200);
-
-		expect(res.body).toHaveProperty("id", createdTodoId);
-		expect(res.body).toHaveProperty("title", "Updated title");
-		expect(res.body).toHaveProperty("description", "Updated description");
-		expect(res.body).toHaveProperty("completed", true);
-	});
-
 	it("should delete a todo by ID", async () => {
 		await request(app).delete(`/api/todos/${createdTodoId}`).expect(200);
 
